@@ -1,9 +1,10 @@
 const express = require('express');
 const path = require('path');
-const elmRenderer = require('../elm-renderer');
+const elmRenderer = require('../lib/elm-renderer');
 
 const app = express();
 const port = process.env.PORT || 8080;
+
 app.engine('elm', elmRenderer);
 app.set('view engine', 'elm');
 app.set('views', path.join(__dirname, 'views'));
