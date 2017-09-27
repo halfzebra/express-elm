@@ -26,6 +26,6 @@
   },
   "repository": "https://github.com/halfzebra/express-elm",
   "scripts": {
-    "test": "mocha tests/*.spec.js --reporter=spec --timeout 10000"
+    "test": "mocha tests/*.spec.js --reporter=spec --timeout 20000"
   }
 }
