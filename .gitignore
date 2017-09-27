@@ -115,4 +115,4 @@ typings/
 .env
 
 # elm-static-html-lib cache.
-/example/views/.elm-static-html/
+.elm-static-html
