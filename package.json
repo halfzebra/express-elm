@@ -2,6 +2,7 @@
   "name": "express-elm",
   "version": "1.0.0",
   "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
+  "description": "Express Elm Template Engine",
   "bugs": {
     "url": "https://github.com/halfzebra/express-elm/issues"
   },
@@ -19,7 +20,7 @@
     "express"
   ],
   "license": "MIT",
-  "main": "elm-renderer.js",
+  "main": "lib/elm-renderer.js",
   "peerDependencies": {
     "elm": "~0.18.0"
   },
