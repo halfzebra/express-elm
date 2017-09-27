@@ -1,23 +1,29 @@
 {
   "name": "express-elm",
   "version": "1.0.0",
+  "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/halfzebra/express-elm/issues"
+  },
   "dependencies": {
     "elm-static-html-lib": "0.0.8-alpha.2"
   },
   "devDependencies": {
     "elm": "~0.18.0",
     "express": "^4.15.5",
-    "mocha": "^3.5.3"
+    "mocha": "^3.5.3",
+    "unexpected": "^10.35.0"
   },
   "keywords": [
-    "express",
-    "elm"
+    "elm",
+    "express"
   ],
   "license": "MIT",
   "main": "elm-renderer.js",
   "peerDependencies": {
     "elm": "~0.18.0"
   },
+  "repository": "https://github.com/halfzebra/express-elm",
   "scripts": {
     "test": "mocha tests/*.spec.js --reporter=spec"
   }
