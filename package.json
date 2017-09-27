@@ -1,8 +1,8 @@
 {
   "name": "express-elm",
+  "description": "Express Elm Template Engine",
   "version": "1.0.0",
   "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
-  "description": "Express Elm Template Engine",
   "bugs": {
     "url": "https://github.com/halfzebra/express-elm/issues"
   },
@@ -26,6 +26,6 @@
   },
   "repository": "https://github.com/halfzebra/express-elm",
   "scripts": {
-    "test": "mocha tests/*.spec.js --reporter=spec"
+    "test": "mocha tests/*.spec.js --reporter=spec --timeout 10000"
   }
 }
